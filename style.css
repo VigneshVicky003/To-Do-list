@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #616d7e;
+}
+header{
+    background-image: url(./bg.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer a{
+    color: #222;
+}
+footer i{
+    margin: 0px 6px;
+}
+.fa-instagram{
+    background-image: linear-gradient(to top right, #fbad50, #bc2a8d, #8a3ab9);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.fa-github{
+    color: black;
+}
+.fa-linkedin-in{
+    color: royalblue;
+}
+.container{
+    top: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0px auto;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0px;
+}
+.top-items{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    /* padding: 0px 100px; */
+    margin: 0px auto;
+    /* margin-left: 298px; */
+}
+#switch{
+    margin-left: auto;
+}
+.add-task{
+    border: 0px;
+    background: #f5f5f5;
+    position: relative;
+    width: 300px;
+    height: 30px;
+}
+
+.form-container{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+}
+.add-task:focus {
+    border: none;
+    outline: none;
+}
+.tabs{
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+    padding: 0px 5px;
+}
+.middle-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-tabs p{
+    padding: 0 5px;
+}
